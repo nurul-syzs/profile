@@ -1,0 +1,40 @@
+p#styledP{
+  font-size: 1.5em;
+  text-align: center;
+  color: #FF6633;
+  background-color: black;
+  padding: 1px 5px;
+  border-radius: 30% 60% 30% 60%;
+}
+
+p.illogical{
+  font-size: 0.8em;
+  color: white;
+}
+
+div.centralized{
+  text-align: center;
+  background-color: black;
+  padding: 1px 10px 1px 10px;
+  margin: 10px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+
+
+/* mouse over link */
+a.eternal:hover {
+    color: hotpink;
+}
